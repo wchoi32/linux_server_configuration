@@ -52,6 +52,16 @@ sudo ufw allow 80/tcp
 sudo ufw allow 123/udp
 sudo ufw enable
 ```
+
+If 22 enabled, you can disable by:
+```
+sudo ufw deny 22
+```
+or remove rule from ufw by:
+```
+sudo ufw status numbered
+sudo ufw delete [number]
+```
 b. Once done, check whether ufw is enabled by command: sudo ufw status 
 c. make sure to goto Amazon Lighsail instance on your browser and configure firewall ports as well.
 9. Create user grader and give access
@@ -211,4 +221,6 @@ CLIENT_ID = json.loads(
 *https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
 *http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/
 *https://blog.codeasite.com/how-do-i-find-apache-http-server-log-files/
+*https://serverfault.com/questions/262751/update-ubuntu-10-04/262773#262773
+*https://www.vultr.com/docs/how-to-configure-ufw-firewall-on-ubuntu-14-04
 
