@@ -207,8 +207,8 @@ CLIENT_ID = json.loads(
 ```
 
 ## List of any third-party resources used
-Udacity Linux Config Learning Page & Project Details
-https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
-http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/
-https://blog.codeasite.com/how-do-i-find-apache-http-server-log-files/
+*Udacity Linux Config Learning Page & Project Details
+*https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps
+*http://flask.pocoo.org/docs/1.0/deploying/mod_wsgi/
+*https://blog.codeasite.com/how-do-i-find-apache-http-server-log-files/
 
